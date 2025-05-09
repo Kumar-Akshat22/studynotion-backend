@@ -5,7 +5,7 @@ import dotenv from "dotenv"
 import Razorpay from "razorpay";
 dotenv.config();
 
-const port = process.env.PORT;
+const port = process.env.PORT || 5000;
 
 const server = http.createServer(app);
 
